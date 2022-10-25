@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*debugging */
+    border: 1px solid blue;
+
+    /* font */
+    font-family: monospace;
+    color: white;
+}
+
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+p {
+    color: white 
+    font-size: 1.3em;
+}
+
+button {
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 1.3em;
+}
+
+
+
+/* Outer Container Section */
+.outer-container {
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+
+/* Top Container Section */
+.top-bar p {
+    float: right;
+}
+
+
+
+/* inner container */
+.inner-container {
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+/* Quiz Intro */
+.quiz-intro {
+    margin-top 25vh;
+}
+
+
+
+/* QUiz Content 8?
+
+
+
+}
