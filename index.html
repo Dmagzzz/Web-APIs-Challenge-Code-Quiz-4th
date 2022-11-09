@@ -1,38 +1,69 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title> Web Quiz</title>
-        <meta name="viewport" content="width-device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
+
+<head>
+    <title> Web Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
-<!-- outer divider -->
-<div class="outer-container">
+    <!-- outer divider -->
+    <div class="outer-container">
 
-<!-- top section-->
-<div class="top-bar">
-    <button> View Highscores</button>
-    <p>Timer: 00:00</p>
-</div>
+        <!-- top section-->
+        <div class="top-bar">
+            <button> View High scores</button>
+            <p>Timer: 00:00</p>
+        </div>
 
-<!-- inner divider-->
-<div class="inner-container">
+        <!-- inner divider-->
+        <div class="inner-container">
 
-    <!-- Quiz Intro-->
-    <header class="quiz-intro">
-        <h1>Welcome to the quiz</h1>
-        <p> Start the quiz! </p>
+            <!-- Quiz Intro-->
+            <header class="quiz-intro">
+                <h1>Welcome to the quiz</h1>
+                <p> To get started click Start Quiz! </p>
+                <button id="startbtn">Start Quiz!</button>
+            </header>
 
-    </header>
+            <!-- Quiz Content -->
+            <main>
+                <section class="question-screen">
+                    <h2>Question #1</h2>
+                    <ul>
+                        <li><button>Answer 1</button></li>
+                        <li><button>Answer 2</button></li>
+                        <li><button>Answer 3</button></li>
+                        <li><button>Answer 4</button></li>
+                    </ul>
+                    </section>
 
-    <!-- Quiz Content -->
-    <main>
+                    <section class="quiz-finish">
+                        <h2> Quiz Complete.</h2>
+                        <p> Your Score: 00</p>
+                    <div>
+                        <label for="">Your Initials:</label>
+                        <input type="text">
+                        <button>Submit</button>
+                    </div>
+                    </section>
 
-    </main>
-</div>
 
+                <section class="highestScores-screen">
+                <h2>Highscores</h2>
+                <ol>
+                    <li>DM - 35</li>
+                    <li>DM - 35</li>
+                    <li>DM - 35</li>
+                    <li>DM - 35</li>
+                </ol>
+            </section>
+
+            </main>
+        </div>
+<script src="./script.js"></script>
 </body>
 
 
